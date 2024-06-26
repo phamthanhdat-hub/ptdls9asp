@@ -1,0 +1,33 @@
+﻿@model IEnumerable<PTD.Lesson09.Models.Khoa>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "PtdCreate")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.TenKH)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.TenKH)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "PtdEdit", new { id=item.MaKH }) |
+            @Html.ActionLink("Details", "PtdDetails", new { id=item.MaKH }) |
+            @Html.ActionLink("Delete", "PtdDelete", new { id=item.MaKH })
+        </td>
+    </tr>
+}
+
+</table>

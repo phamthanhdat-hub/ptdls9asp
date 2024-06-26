@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="380f5994cb3744879a7e0754af7ba391" Name="Diagram1">
+        <EntityTypeShape EntityType="PTDLesson9Model.Ketqua" Width="1.5" PointX="5.25" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="PTDLesson9Model.Khoa" Width="1.5" PointX="0.75" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PTDLesson9Model.MonHoc" Width="1.5" PointX="3" PointY="5.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="PTDLesson9Model.SinhVien" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="PTDLesson9Model.sysdiagrams" Width="1.5" PointX="5.75" PointY="4.75" IsExpanded="true" />
+        <AssociationConnector Association="PTDLesson9Model.FK__Ketqua__MaMH__2C3393D0" ManuallyRouted="false" />
+        <AssociationConnector Association="PTDLesson9Model.FK__Ketqua__MaSV__2B3F6F97" ManuallyRouted="false" />
+        <AssociationConnector Association="PTDLesson9Model.FK__SinhVien__MaKH__267ABA7A" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
